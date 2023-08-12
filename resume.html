@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resum.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="input-fields">
+          <p class="p0">Resume BUILDER</p>
+          <input type="text" name="name" placeholder="name" class="placeholder" />
+          <input type="text" name="title" placeholder="Title eg web developer" class="placeholder" />
+          <textarea name="workexp" placeholder="work experience" class="placeholder"></textarea>
+          <textarea name="academics" placeholder="academic details" class="placeholder"></textarea>
+          <input name="objective" placeholder="objective" class="placeholder"/>
+          <textarea name="skills" placeholder="skills" class="placeholder"></textarea>
+          <textarea name="projects" placeholder="projects" class="placeholder"></textarea>
+          <textarea name="achievements" placeholder="achievements" class="placeholder" ></textarea>
+          <textarea name="contact" placeholder="contact"class="placeholder" ></textarea>
+    </form>
+     <!-- resume preview -->
+    <div class="output">
+   
+    </div>  
+    <!-- button for toggle   -->
+   <div class="btn">
+        <button onclick="toggle()">Preview or edit</button>
+   </div>
+   <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+    <script src="resume.js"></script>
+</body>
+</html>
